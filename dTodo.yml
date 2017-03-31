@@ -114,7 +114,7 @@ dtodo_translations:
         # todo list display
         todo-list-display: <&a>YOUR dTODO LIST
       brazilian:
-        command-add-missing-name: Por favor especifique o nome da tare que voce quer adicionar.
+        command-add-missing-name: Por favor especifique o nome da tarefa que voce quer adicionar.
         command-add-created: A tarefa foi adicionada ao sua lista de tarefas. Voce tem <&a><player.flag[dtodo].as_list.size.round> <&d> tarefas.
         # command 'check'
         command-check-missing-number: Por favor especifique o numero da tarefa que quer verificar.

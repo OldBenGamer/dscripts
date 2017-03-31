@@ -113,6 +113,20 @@ dtodo_translations:
         todo-remove-info: When you wish to remove a task, do <&e>'<&b><context.alias> check [task_number]<&e>'<&d>.
         # todo list display
         todo-list-display: <&a>YOUR dTODO LIST
+      brazilian:
+        command-add-missing-name: Por favor especifique o nome da tarefa que voce quer adicionar.
+        command-add-created: A tarefa foi adicionada ao sua lista de tarefas. Voce tem <&a><player.flag[dtodo].as_list.size.round> <&d> tarefas.
+        # command 'check'
+        command-check-missing-number: Por favor especifique o numero da tarefa que quer verificar.
+        command-check-no-task: Voce nao tem tarefas em sua lista de tarefas. Voce pode adicionar uma com <&e>'<&b><context.alias> add<&e>'<&d>.
+        command-check-no-task-line: Voce nao tem nenhuma tarefa na linha de numero <&a><c.args.get[2]><&d>. Voce tem <&a><pl.flag[dtodo].as_list.size.round> <&d>tarefas em sua lista de tarefas. Voce pode adicionar mais com <&e>'<&b><context.alias> add<&e>'<&d>.
+        command-check-success: A tarefa foi marcada. Voce ainda tem <&a><pl.flag[dtodo].as_list.size.round> <&d>Tarefas. Volte ao trabalho!
+        command-check-success-empty: Muito bom! Sua lista de tarefas esta vazia agora!. Crie uma nova tarefa com <&e>'<&b><context.alias> add<&e>'<&d>!
+        # case 'null' || no arg
+        todo-empty-add: Sua lista de tarefas esta vazia. Voce pode adicionar tarefas com <&e>'<&b><context.alias> add<&e>'<&d>.
+        todo-empty-remove: Quando desejar remover uma tarefa, execute <&e>'<&b><context.alias> check [task_number]<&e>'<&d>.
+        # todo list display
+        todo-list-display: <&a>Sua Lista de Tarefas:
         
 dTodoList_Tracker:
     type: world
